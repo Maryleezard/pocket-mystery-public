@@ -1,0 +1,92 @@
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+.header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+.kicker {
+  font-family: var(--f-mono), monospace;
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+.title {
+  font-family: var(--f-display), "Courier New", monospace;
+  font-weight: 400;
+  font-size: clamp(32px, 6vw, 48px);
+  margin: 4px 0 0;
+}
+.tagline { margin: 4px 0 0; color: var(--muted); }
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--tab);
+  padding: 20px;
+}
+.caseTitle {
+  font-family: var(--f-display), "Courier New", monospace;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 6px 0 8px;
+  text-wrap: balance;
+}
+.card p { max-width: 65ch; }
+.note { font-size: 15px; color: var(--muted); }
+.footer {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-family: var(--f-mono), monospace;
+  font-size: 13px;
+  color: var(--muted);
+}
+.form { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.input {
+  width: 100%;
+  max-width: 360px;
+  font: inherit;
+  font-size: 16px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  padding: 10px;
+}
+.err { color: var(--stamp); }
+.cta {
+  display: inline-block;
+  margin-top: 8px;
+  font: 500 13px var(--f-mono), monospace;
+  letter-spacing: .04em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 10px 14px;
+  text-decoration: none;
+}
+.lista { display: flex; flex-direction: column; gap: 16px; }
+.cardFoot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 8px; }
+.cardFoot .cta { margin-top: 0; }
+.status {
+  font-family: var(--f-mono), monospace;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--stamp);
+}
+.wyniki { display: flex; flex-direction: column; gap: 12px; width: 100%; margin-top: 8px; }
+.wynik { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.wynik strong { flex-basis: 100%; font-weight: 600; }
+.wynik .input { flex: 1 1 220px; }
+textarea.input { max-width: 560px; resize: vertical; }
+.tabela { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tabela th, .tabela td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tabela th { font-family: var(--f-mono), monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.przewijana { overflow-x: auto; }

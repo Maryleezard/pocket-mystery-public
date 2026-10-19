@@ -1,0 +1,15 @@
+{
+  "id": "archi-bald",
+  "numer": 1,
+  "tytul": "Tajemnicza śmierć łysego architekta",
+  "nazwa": "Archi-Bald",
+  "zajawka": "Prezes rodzinnego biura architektonicznego leży martwy we własnym gabinecie. Wszyscy byli w pracy, nikt niczego nie widział, a każdy miał powód.",
+  "trudnosc": "podstawowa",
+  "osoby": [
+    "Mateusz – starszy syn",
+    "Michał – młodszy syn",
+    "Jadwiga – sekretarka",
+    "Mira – żona ofiary"
+  ],
+  "probyOskarzenia": 2
+}

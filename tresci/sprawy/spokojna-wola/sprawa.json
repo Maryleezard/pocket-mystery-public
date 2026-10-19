@@ -1,0 +1,20 @@
+{
+  "id": "spokojna-wola",
+  "numer": 2,
+  "tytul": "Listonosz nie zadzwoni już dwa razy",
+  "nazwa": "Spokojna Wola",
+  "zajawka": "Sprawa doręczyciela-dręczyciela. W cichej wsi ktoś zastrzelił listonosza. Przejmujesz jego rewir i torbę pełną listów, z których część ktoś już otwierał. Każdy tu kłamie, ale tylko jedna osoba zabiła.",
+  "trudnosc": "zaawansowana",
+  "osoby": [
+    "Alicja Osiołek – właścicielka baru Pod Koziołkiem",
+    "doktor Zygmunt Chrząszcz – miejscowy lekarz",
+    "ksiądz Oskar – proboszcz",
+    "Jarema Głogowski – hrabia",
+    "Jacek Obróżka – organista",
+    "Alojzy Kociołek – sołtys",
+    "Jowita Kociołek – żona sołtysa",
+    "Witold Sygnałek – komendant straży pożarnej",
+    "Małgorzata Nożycka – krawcowa"
+  ],
+  "probyOskarzenia": 2
+}

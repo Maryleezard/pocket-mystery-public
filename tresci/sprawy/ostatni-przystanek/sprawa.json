@@ -1,0 +1,20 @@
+{
+  "id": "ostatni-przystanek",
+  "numer": 3,
+  "tytul": "Zegarmistrz wskazuje drugą dwadzieścia",
+  "nazwa": "Ostatni przystanek",
+  "zajawka": "Nocny pociąg, zamknięte towarzystwo i zegarmistrz, któremu zegarek stanął o drugiej dwadzieścia. Wsiadasz w ostatniej chwili, na pierwszy kurs w nowej pracy, i od razu trafiasz na zbrodnię. Wszyscy mają alibi na drugą dwadzieścia. Tylko że tej nocy ta godzina zdarzyła się dwa razy.",
+  "trudnosc": "średnia",
+  "osoby": [
+    "Ludwik Cyferski – wspólnik zmarłego",
+    "Eleonora Tarcza – była żona",
+    "Matylda Sprężyna – asystentka z pracowni",
+    "Konrad Balans – handlarz antykami",
+    "Eustachia Kukułka – autorka kryminałów",
+    "Wiktor Wskazówka – kelner z wagonu barowego",
+    "Wacław Kasownik – kierownik pociągu",
+    "Zenon Szyna – maszynista",
+    "doktor Lucjan Wagonik – lekarz kolejowy"
+  ],
+  "probyOskarzenia": 2
+}

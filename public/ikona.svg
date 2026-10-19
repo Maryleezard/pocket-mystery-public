@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Detektyw w meloniku z lupą">
+  <!-- Ikona Pocket Mystery: czarny kontur detektywa na beżowym tle akt.
+       Cała postać mieści się w kole o promieniu ok. 200 px od środka, więc nadaje się też jako ikona maskowana. -->
+  <rect width="512" height="512" fill="#ecebe4"/>
+  <g fill="#14161a">
+    <!-- melonik: kopuła i rondo -->
+    <path d="M192 196 C190 128 222 94 256 94 C290 94 322 128 320 196 Z"/>
+    <rect x="150" y="190" width="212" height="24" rx="12"/>
+    <!-- twarz i szyja -->
+    <path d="M204 214 L204 262 C204 298 228 320 256 320 C284 320 308 298 308 262 L308 214 Z"/>
+    <rect x="236" y="314" width="40" height="34"/>
+    <!-- płaszcz z postawionym kołnierzem -->
+    <path d="M150 436 C150 376 188 344 256 340 C324 344 362 376 362 436 Z"/>
+  </g>
+  <!-- wstążka melonika, oko, wąsy i klapy płaszcza w kolorze tła -->
+  <g fill="none" stroke="#ecebe4" stroke-linecap="round">
+    <path d="M194 180 L318 180" stroke-width="9"/>
+    <path d="M226 372 L256 404 L286 372" stroke-width="7"/>
+  </g>
+  <g fill="#ecebe4">
+    <circle cx="283" cy="246" r="6"/>
+    <path d="M232 280 Q256 292 280 280 Q256 270 232 280 Z"/>
+  </g>
+  <!-- lupa: jasna obwódka oddziela ją od płaszcza -->
+  <circle cx="318" cy="322" r="58" fill="#ecebe4"/>
+  <circle cx="318" cy="322" r="46" fill="#ecebe4" stroke="#14161a" stroke-width="15"/>
+  <path d="M296 306 A28 28 0 0 1 316 296" fill="none" stroke="#14161a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M352 356 L392 396" stroke="#ecebe4" stroke-width="34" stroke-linecap="round"/>
+  <path d="M352 356 L392 396" stroke="#14161a" stroke-width="20" stroke-linecap="round"/>
+</svg>
